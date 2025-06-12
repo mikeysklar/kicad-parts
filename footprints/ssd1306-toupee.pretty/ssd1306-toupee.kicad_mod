@@ -1,0 +1,169 @@
+(footprint "ssd1306-toupee"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.45 5.797 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b12f2751-bfe3-42ac-887f-0bd1c980c4a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ssd1306-toupee"
+		(at 1.45 7.297 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad8e71a0-683e-4d04-bde0-8121254acc46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.45 6.297 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ff90069-b2ac-4cf8-a9b4-8ee812b43f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.45 6.297 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e9ca368-287b-4702-a347-d9a2d507ecff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13.5 -12.4)
+		(end 13.6 15.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5874654f-d580-4a5e-8da7-855bce569f35")
+	)
+	(fp_circle
+		(center -11.75 -10.7)
+		(end -10.25 -10.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c190f67c-6c2c-42a0-99a6-9eaacc8ca574")
+	)
+	(fp_circle
+		(center -11.75 13.8)
+		(end -10.25 13.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f5865646-3ed6-4b2e-808a-ba07dd71a7e3")
+	)
+	(fp_circle
+		(center 11.75 -10.7)
+		(end 13.25 -10.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "188de7c6-0033-470a-9df5-b821fb9cc78c")
+	)
+	(fp_circle
+		(center 11.75 13.8)
+		(end 13.25 13.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "928f4b2e-1d9a-4df2-be8b-2cde703b3edf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(uuid "b3785d1b-8c15-4b2a-adea-fb58017c4c1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.87 -11.2)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afd60f3b-59a8-410e-bf13-c78a2dfc00cc")
+	)
+	(pad "2" thru_hole circle
+		(at -1.33 -11.2)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0640517a-a652-4ff1-af61-9edab5d6999a")
+	)
+	(pad "3" thru_hole circle
+		(at 1.21 -11.2)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e7617db-8f66-4759-a900-020ffcb6212a")
+	)
+	(pad "4" thru_hole circle
+		(at 3.75 -11.2)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b460089-09da-463c-861e-bb311db19d55")
+	)
+	(embedded_fonts no)
+	(model "/Users/sklarm/Documents/KiCad/mikeysklar/3dmodels/blue-oled-ssd1306-128x64.step"
+		(offset
+			(xyz 0 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
