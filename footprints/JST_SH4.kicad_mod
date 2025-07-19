@@ -1,10 +1,10 @@
 (footprint "JST_SH4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "CONN4"
-		(at -4.6 -5.9 180)
+		(at 4.5 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d2c6edd0-5a29-40af-8c74-0304c28d520b")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 180)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fafebb13-746c-4c04-bc48-0f43f298caee")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -171,7 +159,7 @@
 	(pad "1" smd rect
 		(at -1.5 -2.006 90)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "2b6e2e78-0d29-419c-96b5-4af919b1646f")
@@ -179,7 +167,7 @@
 	(pad "2" smd rect
 		(at -0.5 -2.006 90)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "1b5b7b37-eb27-42b8-9f77-0796ce1cd02c")
@@ -187,7 +175,7 @@
 	(pad "3" smd rect
 		(at 0.5 -2.006 90)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "03738189-dc2a-4c5b-a46c-532c53d596e7")
@@ -195,27 +183,28 @@
 	(pad "4" smd rect
 		(at 1.5 -2.006 90)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "138419f4-d4ef-4520-b355-db2f4415c4b8")
 	)
-	(pad "MT1" smd rect
+	(pad "5" smd rect
 		(at -2.8 1.894 90)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "4e12c856-f220-4a01-8937-e3df5d0c09d7")
 	)
-	(pad "MT2" smd rect
+	(pad "6" smd rect
 		(at 2.8 1.894 90)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "1b907bf9-3305-4205-8059-12cb29dcd9ee")
 	)
+	(embedded_fonts no)
 	(model "/Users/sklarm/Documents/KiCad/8.0/3dmodels/SPARKFUN_QWIIC_RIGHT_ANGLE.step"
 		(offset
 			(xyz -0.5 17.5 0)
