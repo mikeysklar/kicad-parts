@@ -1,9 +1,0 @@
-[submodule "footprints/keyswitches.pretty"]
-	path = footprints/keyswitches.pretty
-	url = https://github.com/daprice/keyswitches.pretty.git
-[submodule "footprints/supermini-nrf52840-kicad"]
-	path = footprints/supermini-nrf52840-kicad
-	url = https://github.com/BlueDrink9/supermini-nrf52840-kicad.git
-[submodule "footprints/KiCad-SSD1306-128x64"]
-	path = footprints/KiCad-SSD1306-128x64
-	url = https://github.com/pforrmi/KiCad-SSD1306-128x64.git
